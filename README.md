@@ -26,7 +26,7 @@
 <h2><strong>About</h2></strong>
 <p>Have you ever found yourself staring at your closet, unsure of what to wear or wondering if your outfit really reflects your style? Or maybe you're trying to mix cherished old favorites with new additions, only to find it feels like solving a puzzle? Fear not, because Wardrobe Wizard is here to save the day!
 
-Introducing Wardrobe Wizard, an AI-powered style assistant that analyzes a user's virtual closet created by scanning their existing clothes and recommends the perfect outfit for the occasion.. But that's not all! Wardrobe Wizard identifies outfit gaps and suggests complementary clothing, footwear, and accessories from Myntra, seamlessly integrating your wardrobe with the latest trends. Get ready to unlock the magic of effortless style with Wardrobe Wizard!
+Introducing Wardrobe Wizard, your personal AI-powered style assistant! Our innovative system scans your existing clothes to create a comprehensive virtual closet, analyzing each item to understand your unique style. With this information, Wardrobe Wizard recommends the perfect outfit for any occasion, ensuring you always look your best.
 
 </p>
 <p><strong>Link to Demo Videos</strong>
@@ -39,7 +39,7 @@ https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sha
 ## Tech stack
 
 <div align=”center”>
-<img  src="./readme_assets/WiseWardro_architect_bk.png" alt="Project Architecture and Tech Stack" width="400" height="auto"/>
+
 </div>
 <br>
 
@@ -56,19 +56,15 @@ https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sha
 - Style selection to customize recommendations.
 - AI-powered advisor for expert fashion guidance.
 - Save and favorite outfits for future reference.
-- Obtain missing items recommendation directly from Myntra.
 - Seamless user experience with intuitive design.
 
 <br>
 
 ---
 
-<h2><strong>Workflow</h2></strong>
+<h2><strong>Project Architecture and Tech Stack</h2></strong>
 
-<h2>Website</h2>
-<img src="Readme_Assets\jam2.png"> <br>
-<h2>Outfit Recommendation System</h2>
-<img src="Readme_Assets\jam1.png"> 
+<img  src="./readme_assets/WiseWardro_architect_bk.png" alt="Project Architecture and Tech Stack" width="400" height="auto"/>
 <br>
 
 ---
