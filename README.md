@@ -86,9 +86,9 @@ https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sha
 <h2 align="center"><b>Developed by Team Girls Who Code</b></h2><br>
 
 
-[![](https://img.shields.io/badge/LinkedIn-Priyanka_Hotchandani-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/priyanka-hotchandani/)
+[![](https://img.shields.io/badge/LinkedIn-Adya_Verma-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/nayanika-singha-chowdhury-95255624a/)
 
-[![](https://img.shields.io/badge/LinkedIn-Prachi_Randeria-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/prachi-randeria/)
+[![](https://img.shields.io/badge/LinkedIn-Nayanika_S_Chowdhury-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/adya-verma-b5241824a/)
 
-[![](https://img.shields.io/badge/LinkedIn-Gayatri_Patil-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/gayatri-patil-48316b203/)
+[![](https://img.shields.io/badge/LinkedIn-Siuli_Sabnam-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/siuli-sharon-sabnam/)
  
