@@ -36,6 +36,20 @@ https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sha
 
 ---
 
+## Tech stack
+
+<div align=”center”>
+<img  src="./readme_assets/WiseWardro_architect_bk.png" alt="Project Architecture and Tech Stack" width="400" height="auto"/>
+</div>
+<br>
+
+- The project used **React.js, JavaScript, CSS, SASS** for the front-end development.
+- For data persistence, we used **IndexDB** to store images and outfit combinations in the client side.
+- The server and RESTful api was designed with **Node.js with Express.js**.
+- The main feature of outfit suggestion was powpered by openAI API, GPT-4 vision model.
+
+---
+
 <h2><strong>🔥 Key Features</h2></strong>
 
 - Drag and drop functionality for easy outfit creation.
@@ -69,6 +83,8 @@ https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sha
 </div>
 
 </div>
+
+---
 
 ## Lessons learned & next steps
 
