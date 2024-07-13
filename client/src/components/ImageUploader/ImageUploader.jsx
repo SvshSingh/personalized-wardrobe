@@ -16,7 +16,7 @@ const ImageUploader = ({ images, setImages }) => {
     setImages(images.filter((_, i) => i !== index));
   };
 
-  return (
+  return ( 
     <div className="image-uploader">
       <ImageUploading
         multiple

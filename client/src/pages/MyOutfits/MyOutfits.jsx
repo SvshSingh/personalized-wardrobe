@@ -39,23 +39,23 @@ function MyOutfits() {
     const image = images.find((img) => img.id === imageId);
     console.log("Image ID:", imageId);
     console.log("Image Object:", image);
-
+  
     if (image) {
-      if (typeof image.url === 'string') {
-        return image.url; // Assume it is a valid URL string
-      } else if (image.url instanceof Blob) {
+      if (typeof image.blob === 'string') {
+        return image.blob; // Assume it is a valid URL string
+      } else if (image.blob instanceof Blob) {
         try {
-          const objectUrl = URL.createObjectURL(image.url);
+          const objectUrl = URL.createObjectURL(image.blob);
           console.log("Created object URL:", objectUrl);
           return objectUrl;
         } catch (error) {
           console.error("Failed to create object URL:", error);
         }
       } else {
-        console.error("Unexpected image.url type:", typeof image.url);
+        console.error("Unexpected image.blob type:", typeof image.blob);
       }
     }
-
+  
     return ""; // Return an empty string if no valid URL or Blob is found
   };
 
