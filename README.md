@@ -84,9 +84,9 @@ https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sha
 
 ## Lessons learned & next steps
 
-- In order to get more accurate result, the prompt needs to be further refined.
-- Currently the app uses IndexDB for client-side image storage, and images are communicate as form data between the client and server. Will implement cloud data storage for scaling purposes.
-- Implement user profile feature, so we an get more specifics of each individual user, using this data to query gpt vision model, therefore to get more personalized fashion suggestions target to the user.
+- To achieve more accurate results, the prompt needs to be further refined.
+- The app currently uses IndexDB for client-side image storage and communicates images as form data between the client and server. Implementing cloud data storage will enhance scalability.
+- We plan to implement a user profile feature to gather specific details about each user. This data will be used to query the GPT Vision model, enabling more personalized fashion suggestions tailored to individual users.
 
 
 
