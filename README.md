@@ -14,7 +14,7 @@
 [![](https://img.shields.io/badge/Made_with-Opencv-green?style=for-the-badge&logo=opencv)](https://opencv.org)
 [![](https://img.shields.io/badge/Made_with-Python-green?style=for-the-badge&logo=python)](https://www.python.org)
 [![](https://img.shields.io/badge/Made_with-Tkinter-green?style=for-the-badge&logo=Tkinter)](https://docs.python.org/3/library/tk.html)
-[![](https://img.shields.io/badge/Made_with-Tensorflow-green?style=for-the-badge&logo=tensorflow)](https://www.tensorflow.org)
+[![](https://img.shields.io/badge/Made_with-Python-green?style=for-the-badge&logo=tensorflow)](https://www.tensorflow.org)
 
 </br>
 
