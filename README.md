@@ -50,7 +50,7 @@ https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sha
 
 ---
 
-<h2><strong>🔥 Key Features</h2></strong>
+<h2><strong>Key Features</h2></strong>
 
 - Drag and drop functionality for easy outfit creation.
 - Style selection to customize recommendations.
