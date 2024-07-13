@@ -42,6 +42,7 @@ https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sha
 - Style selection to customize recommendations.
 - AI-powered advisor for expert fashion guidance.
 - Save and favorite outfits for future reference.
+- Obtain missing items recommendation directly from Myntra.
 - Seamless user experience with intuitive design.
 
 <br>
@@ -52,7 +53,7 @@ https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sha
 
 <h2>Website</h2>
 <img src="Readme_Assets\jam2.png"> <br>
-<h2>Virtual Dressing Room</h2>
+<h2>Outfit Recommendation System</h2>
 <img src="Readme_Assets\jam1.png"> 
 <br>
 
@@ -69,6 +70,12 @@ https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sha
 
 </div>
 
+## Lessons learned & next steps
+
+- In order to get more accurate result, the prompt needs to be further refined.
+- Currently the app uses IndexDB for client-side image storage, and images are communicate as form data between the client and server. Will implement cloud data storage for scaling purposes.
+- Implement user profile feature, so we an get more specifics of each individual user, using this data to query gpt vision model, therefore to get more personalized fashion suggestions target to the user.
+
 
 
 ---
@@ -76,7 +83,7 @@ https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sha
 
 
 <br>
-<h2 align="center"><b>Developed by Team &lt&#47Violet Colons&gt</b></h2><br>
+<h2 align="center"><b>Developed by Team Girls Who Code</b></h2><br>
 
 
 [![](https://img.shields.io/badge/LinkedIn-Priyanka_Hotchandani-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/priyanka-hotchandani/)
