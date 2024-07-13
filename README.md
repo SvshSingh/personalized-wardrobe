@@ -1,4 +1,4 @@
-<h1 align="center">Wardrobe Wizard</h1>
+<h1 align="center">WARDROBE WIZARD</h1>
 
 <div align="center">
 <img align="center" src="Readme_Assets\V-Shop Logo.png" height="250px"> 
@@ -24,34 +24,25 @@
 
 ---
 <h2><strong>About</h2></strong>
-<p>Retail shopping with friends has been a social experience but online shopping has largely remained a solo experience. This affects a large number of people who like to shop online but are unable to get a companion to shop with. This void of a companion in online shopping can make it boring over a period of time. </p>
+<p>Have you ever found yourself staring at your closet, unsure of what to wear or wondering if your outfit really reflects your style? Or maybe you're trying to mix cherished old favorites with new additions, only to find it feels like solving a puzzle? Fear not, because Wardrobe Wizard is here to save the day!
 
-<p>Moreover, in recent times of COVID-19, where the only means of shopping is e-commerce, we need to bridge the gap between friends who want to shop together online.
-  </p>
+Introducing Wardrobe Wizard, an AI-powered style assistant that analyzes a user's virtual closet created by scanning their existing clothes and recommends the perfect outfit for the occasion.. But that's not all! Wardrobe Wizard identifies outfit gaps and suggests complementary clothing, footwear, and accessories from Myntra, seamlessly integrating your wardrobe with the latest trends. Get ready to unlock the magic of effortless style with Wardrobe Wizard!
 
-
-<p>Combining the best of both online and offline shopping worlds together, V-Shop is a communicative web application which will facilitate the users to shop together virtually being in the comfort of their homes. They will be able to interact with their friends, get opinions on their shopping choices, and enjoy each other’s company whilst having a fun-filled time shopping online.   
 </p>
-<p><strong>Link to Demo Videos and Body Segmentation Model:</strong>
+<p><strong>Link to Demo Videos</strong>
 https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sharing
 </p>
 <br>
 
 ---
 
-<h2><strong>Features</h2></strong>
+<h2><strong>🔥 Key Features</h2></strong>
 
-* Adding friends to room​
-
-* Creating temporary group calls for shopping​
-
-* Screen sharing while shopping online​
-
-* Interactive Chat box during calls
-
-* Common Wishlist
-
-* Virtual Dressing Room​
+- Drag and drop functionality for easy outfit creation.
+- Style selection to customize recommendations.
+- AI-powered advisor for expert fashion guidance.
+- Save and favorite outfits for future reference.
+- Seamless user experience with intuitive design.
 
 <br>
 
