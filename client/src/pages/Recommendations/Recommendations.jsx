@@ -15,6 +15,8 @@ import { faHeart as fasHeart } from "@fortawesome/free-solid-svg-icons";
 const Recommendations = ({ response, style }) => {
   const [favoriteStatus, setFavoriteStatus] = useState({}); // State to track favorites
   const [error, setError] = useState("");
+  const [images, setImages] = useState([]);
+
   // Initialize favorite status from outfits
   useEffect(() => {
     const initialStatus = {};
@@ -24,7 +26,21 @@ const Recommendations = ({ response, style }) => {
     setFavoriteStatus(initialStatus);
   }, [response]);
 
-  // toggle heart when user clicks, and save or remove outfit in IndexDB database
+  // Fetch images from IndexedDB
+  useEffect(() => {
+    const fetchImages = async () => {
+      try {
+        const storedImages = await getImages();
+        console.log("Fetched images from IndexedDB:", storedImages);
+        setImages(storedImages || []);
+      } catch (error) {
+        console.log("Error fetching images:", error);
+      }
+    };
+    fetchImages();
+  }, []);
+
+  // toggle heart when user clicks, and save or remove outfit in IndexedDB database
   const toggleHeart = async (favOutfit) => {
     const currentStatus = favoriteStatus[favOutfit.outfit_id];
     const newStatus = {
@@ -59,28 +75,36 @@ const Recommendations = ({ response, style }) => {
 
   const navigate = useNavigate();
   const outfits = getJson(response); // Parse JSON string using getJson function
-  const [images, setImages] = useState([]);
 
-  useEffect(() => {
-    const fetchImages = async () => {
-      try {
-        const storedImages = await getImages();
-        setImages(storedImages || []);
-      } catch (error) {
-        console.log("Error fetching images:", error);
-      }
-    };
-    fetchImages();
-  }, []);
   // find the src of images stored in indexDB
   const getImageSrc = (imageId) => {
     const image = images.find((img) => img.id === imageId);
-    return image ? URL.createObjectURL(image.blob) : "";
+    if (image) {
+      console.log(`Creating object URL for image ID ${imageId}`, image);
+      if (image.blob instanceof Blob) {
+        const url = URL.createObjectURL(image.blob);
+        console.log(`Object URL for image ID ${imageId}: ${url}`);
+        return url;
+      } else {
+        console.log(`Invalid blob for image ID ${imageId}`, image.blob);
+        return "";
+      }
+    } else {
+      console.log(`Image ID ${imageId} not found`);
+      return "";
+    }
   };
+
   const getImageFile = (imageId) => {
     const image = images.find((img) => img.id === imageId);
+    if (image) {
+      console.log(`Found image for ID ${imageId}`, image);
+    } else {
+      console.log(`No image found for ID ${imageId}`);
+    }
     return image ? image : null;
   };
+
   if (images.length === 0 || !response || response.length === 0) {
     // case1: no response from api
     return <div className="outfit__loading">Loading...</div>;
@@ -89,11 +113,11 @@ const Recommendations = ({ response, style }) => {
     return (
       <div className="recommendations">
         <h1 className="outfit__heading">
-          Opps, our AI Advisor just sloped away
+          Oops, our AI Advisor just sloped away
         </h1>
         <p className="outfit__error-text">{response}</p>
         <button className="primary__btn" onClick={() => navigate(-1)}>
-          Try Agian
+          Try Again
         </button>
       </div>
     );

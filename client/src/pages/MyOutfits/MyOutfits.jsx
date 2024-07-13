@@ -11,8 +11,8 @@ function MyOutfits() {
   const [outfits, setOutfits] = useState([]);
   const [images, setImages] = useState([]);
   const [error, setError] = useState("");
+
   useEffect(() => {
-    // get all outfits saved in the favorites store
     const fetchFavoriteOutfits = async () => {
       try {
         const favoriteOutfits = await getFavoriteOutfits();
@@ -33,12 +33,30 @@ function MyOutfits() {
 
     fetchFavoriteOutfits();
     fetchFavImages();
-  }, [outfits]);
+  }, []);
 
-  // find the src of images stored in indexDB
   const getImageSrc = (imageId) => {
     const image = images.find((img) => img.id === imageId);
-    return image ? image.url : "";
+    console.log("Image ID:", imageId);
+    console.log("Image Object:", image);
+
+    if (image) {
+      if (typeof image.url === 'string') {
+        return image.url; // Assume it is a valid URL string
+      } else if (image.url instanceof Blob) {
+        try {
+          const objectUrl = URL.createObjectURL(image.url);
+          console.log("Created object URL:", objectUrl);
+          return objectUrl;
+        } catch (error) {
+          console.error("Failed to create object URL:", error);
+        }
+      } else {
+        console.error("Unexpected image.url type:", typeof image.url);
+      }
+    }
+
+    return ""; // Return an empty string if no valid URL or Blob is found
   };
 
   if (outfits.length === 0) {
