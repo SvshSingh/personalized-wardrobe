@@ -36,7 +36,7 @@ https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sha
 
 ---
 
-## Tech stack
+## Tech stacks used
 
 <div align=”center”>
 
@@ -55,14 +55,13 @@ https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sha
 - Drag and drop functionality for easy outfit creation.
 - Style selection to customize recommendations.
 - AI-powered advisor for expert fashion guidance.
-- Save and favorite outfits for future reference.
 - Seamless user experience with intuitive design.
 
 <br>
 
 ---
 
-<h2><strong>Project Architecture and Tech Stack</h2></strong>
+<h2><strong>Project Architecture</h2></strong>
 
 <img  src="./readme_assets/WiseWardro_architect_bk.png" alt="Project Architecture and Tech Stack" width="400" height="auto"/>
 <br>
