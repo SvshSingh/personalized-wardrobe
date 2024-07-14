@@ -26,8 +26,7 @@
 <h2><strong>About</h2></strong>
 <p>Have you ever found yourself staring at your closet, unsure of what to wear or wondering if your outfit really reflects your style? Or maybe you're trying to mix cherished old favorites with new additions, only to find it feels like solving a puzzle? Fear not, because Wardrobe Wizard is here to save the day!
 
-Introducing Wardrobe Wizard, your personal AI-powered style assistant! Our innovative system scans your existing clothes to create a comprehensive virtual closet, analyzing each item to understand your unique style. With this information, Wardrobe Wizard recommends the perfect outfit for any occasion, ensuring you always look your best.
-
+Introducing Wardrobe Wizard, your personal AI-powered style assistant! Our innovative system scans images of clothes uploaded from your wardrobe and allows you to select the occasion or style you're dressing for. With this information, Wardrobe Wizard recommends the perfect outfit for any event, ensuring you always look your best.
 </p>
 <p><strong>Link to Demo Videos</strong>
 https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sharing
@@ -43,19 +42,20 @@ https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sha
 </div>
 <br>
 
-- The project employed **React.js, JavaScript, CSS, and SASS** for front-end development.
-- **IndexedDB** was used for client-side data persistence, storing images and outfit combinations.
-- The server and RESTful API were created using **Node.js and Express.js**.
-- The key feature, outfit suggestion, was powered by the **OpenAI API's GPT-4 vision model**.
+- The project used **React.js, JavaScript, CSS, SASS** for the front-end development.
+- For data persistence, we used **IndexDB** to store images and outfit combinations in the client side.
+- The server and RESTful api was designed with **Node.js with Express.js**.
+- The main feature of outfit suggestion was powered by openAI API, GPT-4 vision model.
 
 ---
 
 <h2><strong>Key Features</h2></strong>
 
-- Easy outfit creation with drag-and-drop functionality.
-- Customizable recommendations through style selection.
+- Easy upload of images and virtual closet creation.
+- Style selection to customize recommendations.
 - Expert fashion guidance provided by an AI-powered advisor.
 - Intuitive design ensures a seamless user experience.
+  
 
 <br>
 
@@ -85,8 +85,8 @@ https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sha
 
 - Refining the prompt further is essential to achieve more accurate results.
 - Currently, the app uses IndexedDB for client-side image storage and transmits images as form data between the client and server. Switching to cloud data storage will improve scalability.
-- We intend to implement a user profile feature to collect specific details about each user. This information will be used to query the GPT Vision model, providing personalized fashion suggestions tailored to individual users.
-- We plan to integrate **Myntra's API** to offer additional suggestions for accessories and other items to enhance the user's look.
+- We intend to implement a user profile feature to collect specific details about each user. This information will be used to query the GPT Vision model, providing more personalized fashion suggestions tailored to individual users.
+- We plan to integrate **Myntra's API** to offer additional suggestions for accessories and other missing items to enhance the user's look.
 
 
 ---
