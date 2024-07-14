@@ -13,6 +13,10 @@
 [![](https://img.shields.io/badge/Made_with-Node.js-green?style=for-the-badge&logo=node.js)](https://nodejs.org/en/)
 [![](https://img.shields.io/badge/Made_with-Express.js-green?style=for-the-badge&logo=express)](https://expressjs.com/)
 [![](https://img.shields.io/badge/Made_with-OpenAI_API-green?style=for-the-badge&logo=openai)](https://www.openai.com)
+[![](https://img.shields.io/badge/Made_with-REST_API-green?style=for-the-badge&logo=api)](https://restfulapi.net/)
+[![](https://img.shields.io/badge/Made_with-Git-green?style=for-the-badge&logo=git)](https://git-scm.com/)
+[![](https://img.shields.io/badge/Made_with-GitHub-green?style=for-the-badge&logo=github)](https://github.com/)
+
 
 </br>
 
