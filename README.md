@@ -1,7 +1,7 @@
 <h1 align="center">WARDROBE WIZARD</h1>
 
 <div align="center">
-<img align="center" src="Readme_Assets\V-Shop Logo.png" height="250px"> 
+<img align="center" src="readme_assets\WW_Logo.png" height="250px"> 
 </div>
 
 <br>
