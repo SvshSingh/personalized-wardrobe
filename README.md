@@ -42,7 +42,7 @@ https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sha
 </div>
 <br>
 
-- The project used **React.js, JavaScript, CSS, SASS** for the front-end development.
+- The project used **React.js, JavaScript, SASS** for the front-end development.
 - For data persistence, we used **IndexedDB** to store images and outfit combinations in the client side.
 - The server and RESTful api was designed with **Node.js with Express.js**.
 - The main feature of outfit suggestion was powered by openAI API, GPT-4 vision model.
