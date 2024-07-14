@@ -43,19 +43,19 @@ https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sha
 </div>
 <br>
 
-- The project used **React.js, JavaScript, CSS, SASS** for the front-end development.
-- For data persistence, we used **IndexDB** to store images and outfit combinations in the client side.
-- The server and RESTful api was designed with **Node.js with Express.js**.
-- The main feature of outfit suggestion was powpered by openAI API, GPT-4 vision model.
+- The project employed **React.js, JavaScript, CSS, and SASS** for front-end development.
+- **IndexedDB** was used for client-side data persistence, storing images and outfit combinations.
+- The server and RESTful API were created using **Node.js and Express.js**.
+- The key feature, outfit suggestion, was powered by the **OpenAI API's GPT-4 vision model**.
 
 ---
 
 <h2><strong>Key Features</h2></strong>
 
-- Drag and drop functionality for easy outfit creation.
-- Style selection to customize recommendations.
-- AI-powered advisor for expert fashion guidance.
-- Seamless user experience with intuitive design.
+- Easy outfit creation with drag-and-drop functionality.
+- Customizable recommendations through style selection.
+- Expert fashion guidance provided by an AI-powered advisor.
+- Intuitive design ensures a seamless user experience.
 
 <br>
 
@@ -81,12 +81,12 @@ https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sha
 
 ---
 
-## Lessons learned & next steps
+## Next steps for WARDROBE WIZARD
 
-- To achieve more accurate results, the prompt needs to be further refined.
-- The app currently uses IndexDB for client-side image storage and communicates images as form data between the client and server. Implementing cloud data storage will enhance scalability.
-- We plan to implement a user profile feature to gather specific details about each user. This data will be used to query the GPT Vision model, enabling more personalized fashion suggestions tailored to individual users.
-
+- Refining the prompt further is essential to achieve more accurate results.
+- Currently, the app uses IndexedDB for client-side image storage and transmits images as form data between the client and server. Switching to cloud data storage will improve scalability.
+- We intend to implement a user profile feature to collect specific details about each user. This information will be used to query the GPT Vision model, providing personalized fashion suggestions tailored to individual users.
+- We plan to integrate **Myntra's API** to offer additional suggestions for accessories and other items to enhance the user's look.
 
 
 ---
