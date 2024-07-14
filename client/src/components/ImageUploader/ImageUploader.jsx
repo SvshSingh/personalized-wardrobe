@@ -66,8 +66,8 @@ const ImageUploader = ({ images, setImages }) => {
                 />
                 <div className="image-uploader__messages">
                   Drag & drop images here or click to select images. <br></br>
-                  Please upload at 3 images to have a recommended outif.{" "}
-                  <br></br>Total iamge file size should be under 1MB.
+                  Please upload at least 3 images to get the perfect recommendation.{" "}
+                  <br></br>Total image file size should be under 1MB.
                 </div>
               </div>
             )}

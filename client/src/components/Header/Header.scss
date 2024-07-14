@@ -3,73 +3,73 @@
 @use "../../styles/partials/variables" as *;
 
 .header {
-  padding-bottom: 1rem;
-  background-color: $black;
+  background-color: white;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-  @include tablet {
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-    padding: 0rem 2rem;
-  }
-  @include desktop {
-    padding: 0rem 3rem;
+  border: 0 100px !important;
+  padding: 9px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  &__left, &__center, &__right {
+    display: flex;
+    align-items: center;
   }
 
   &__logo {
-    font-family: $font;
-    font-size: 28px;
-    line-height: 36px;
-    font-weight: 600;
-    padding: 0;
-    margin: 0;
-    display: block;
-    height: fit-content;
-    color: $orange;
-    text-decoration: none;
-  }
-
-  &__list {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-
-    @include tablet {
-      padding: 0;
-      justify-content: space-between;
-    }
+    height: 40px;
+    margin-right: 2rem;
   }
 
   &__list-item {
-    @include label-links-buttons;
-    padding: 4px 1rem;
-    font-size: 0.7rem;
-    color: white;
+    font-family: $font;
+    font-size: 14px;
+    color: #333;
     text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.5rem 0;
     cursor: pointer;
 
-    @include tablet {
-      padding-left: 2.5rem;
-    }
-
     &:hover {
-      text-decoration: underline;
+      color: #ff3e6c;
     }
 
     &.active {
-      border-radius: 20px;
-      background-color: #13182c;
-    }
-
-    &--link {
-      text-decoration: none;
-      color: white;
+      border-bottom: 2px solid #ff3e6c;
     }
   }
+
+  &__search {
+    width: 250px;
+    padding: 0.5rem 1rem;
+    border: 0.1px solid #e0e0e0 !important; 
+    border-radius: 2px;
+    outline: none !important;
+
+    &:focus {
+      border-color: #ff3e6c;
+    }
+  }
+
+  &__icon {
+    font-family: $font;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+
+    i {
+      margin-right: 0.5rem;
+    }
+
+    &:hover {
+      color: #ff3e6c;
+    }
+  }
+}
+
+.wizard {
+  color: #ff3e6c;
 }

@@ -4,7 +4,7 @@ import "./Footer.scss";
 function Footer() {
   return (
     <div className="footer">
-      <p>&copy; 2024 WiseWardro.com</p>
+      <p>&copy; 2024 Myntra</p>
     </div>
   );
 }

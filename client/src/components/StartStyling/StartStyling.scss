@@ -25,13 +25,13 @@
     border-radius: 8px;
     color: $black;
     &:hover {
-      background-color: $light-grey;
+      background-color: #ff6b8e;
       color: $black;
     }
 
     &--selected {
       @extend .style__option;
-      background-color: $black;
+      background-color: #ff3e6c;
       color: $white;
     }
   }
@@ -43,15 +43,13 @@
 
     padding: 10px 20px;
     width: 200px;
-    background-color: $black;
+    background-color: #ff3e6c;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 8px;
     &:hover {
-      background-color: $light-grey;
-      color: $cloud;
-      color: $black;
+      background-color: #ff6b8e;
     }
   }
   &__errors {
