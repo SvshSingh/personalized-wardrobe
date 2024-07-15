@@ -73,13 +73,13 @@ https://drive.google.com/drive/folders/1T-GQfl3ogf-KyzS4cY9UPIjahOKtnJ9E?usp=sha
 <h2><strong>Screenshots</strong></h2>
 <br>
 <div align="center">
-  <img src="Readme_Assets\1.PNG"> 
-  <img src="Readme_Assets\2.PNG"> 
-  <img src="Readme_Assets\3.PNG"> 
-  <img src="Readme_Assets\4.PNG"> 
-  <img src="Readme_Assets\5.PNG"> 
-  <img src="Readme_Assets\6.PNG"> 
-  <img src="Readme_Assets\7.PNG"> 
+  <img src="readme_assets\1.png"> 
+  <img src="readme_assets\2.png"> 
+  <img src="readme_assets\3.png"> 
+  <img src="readme_assets\4.png"> 
+  <img src="readme_assets\5.png"> 
+  <img src="readme_assets\6.png"> 
+  <img src="readme_assets\7.png"> 
 </div>
 
 </div>
