@@ -215,7 +215,7 @@ const Recommendations = ({ response, style }) => {
           ))}
         </div>
         <div></div>
-        <SimilarProducts />
+        
         <button className="primary__btn" onClick={() => navigate(-1)}>Try New Looks</button>
       </div>
     );
