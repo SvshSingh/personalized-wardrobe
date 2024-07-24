@@ -42,7 +42,7 @@ const analyzer = async (req, res) => {
 
   try {
     const response = await openai.chat.completions.create({
-      model: "gpt-4-vision-preview",
+      model: "gpt-4o",
       messages: message,
     });
     console.log(response.choices[0]);
