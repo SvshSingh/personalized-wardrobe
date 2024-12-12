@@ -36,6 +36,7 @@ async function storeImages(images, formDataKeys) {
 
     images.forEach((image, index) => {
       const formDataKey = formDataKeys[index];
+      console.log(`Storing image with ID ${formDataKey}`);
       store.put({ id: formDataKey, blob: image.file });
     });
 
@@ -82,7 +83,7 @@ async function getFavImages() {
 
     return images.map(img => ({
       id: img.id,
-      url: URL.createObjectURL(new Blob([img.blob])),
+      blob: img.blob, // Return blob instead of URL
     }));
   } catch (error) {
     console.error("Error getting favorite images:", error);
@@ -97,9 +98,10 @@ async function getImages() {
     const store = transaction.objectStore("images");
     const images = await store.getAll();
 
+    console.log("Retrieved images from IndexedDB:", images); // Log retrieved images
     return images.map(img => ({
       id: img.id,
-      url: URL.createObjectURL(new Blob([img.blob])),
+      blob: img.blob,
     }));
   } catch (error) {
     console.error("Error getting images:", error);
